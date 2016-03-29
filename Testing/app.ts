@@ -11,6 +11,7 @@
         this.span.innerText = new Date().toUTCString();
     }
 
+    //isto e um teste
     start() {
         this.timerToken = setInterval(() => this.span.innerHTML = new Date().toUTCString(), 500);
     }
